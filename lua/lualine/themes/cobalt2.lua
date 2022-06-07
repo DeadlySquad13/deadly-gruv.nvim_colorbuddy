@@ -3,9 +3,9 @@
 -- │                       License: MIT                       │
 -- ╰──────────────────────────────────────────────────────────╯
 --
-local p = require("cobalt2.palette")
+local p = require("deadly-gruv.palette")
 
-local cobalt2 = {
+local deadly_gruv = {
   inactive = {
     a = { fg = p.yellow, bg = p.cursor_line, gui = "bold" },
     b = { fg = p.yellow, bg = p.cursor_line },
@@ -31,6 +31,6 @@ function mt:__index(k)
   end
 end
 
-cobalt2 = setmetatable(cobalt2, mt)
+deadly_gruv = setmetatable(deadly_gruv, mt)
 
-return cobalt2
+return deadly_gruv
