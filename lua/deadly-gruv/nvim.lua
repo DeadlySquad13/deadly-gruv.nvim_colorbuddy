@@ -1,5 +1,5 @@
-local colors = require("cobalt2.utils").colors
-local Group = require("cobalt2.utils").Group
+local colors = require("deadly-gruv.utils").colors
+local Group = require("deadly-gruv.utils").Group
 
 ---------------------------------------------------------------------------------
 --                                    nvim                                     --
